@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header {
+    background-color: yellow;
+    padding: 100px;
+}
+
+
+header #text {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#text {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+#text h2 {
+    margin-top: 5px;
+}
+
+header #bom {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#bom p {
+    display: flex;
+    justify-content: center;
+}
+
+#cen {
+    text-align: center;
+    margin: 0 20px;
+}
+
+
+#btn {
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color: black;
+    border: 12px solid white;
+    border-radius: 30px;
+
+}
+
+#cc {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+#cc div {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#cc div p {
+    font-weight: lighter;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    color: white;
+}
+
+
+#cha h3 {
+    margin: 20px 150px;
+}
